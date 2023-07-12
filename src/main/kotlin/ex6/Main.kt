@@ -1,0 +1,50 @@
+package ex6
+
+fun main(){
+    println("------Conta Salário------")
+    println()
+    val contaSalario = ContaSalario(352,877,"Luis",1200.00)
+    contaSalario.exibirInformacoes()
+    println()
+    contaSalario.saque(1300.0)
+    contaSalario.deposito(500.0,false)
+    println()
+
+    val contaSalario1 = ContaSalario(891,901,"Luana",1200.00)
+    contaSalario1.exibirInformacoes()
+    println()
+    contaSalario1.saque(200.0)
+    contaSalario1.deposito(500.0,true)
+    println()
+
+    println("------Conta Poupança------")
+    println()
+    val contaPoupanca = ContaPoupanca(142,332,"Fernando",0.0)
+    contaPoupanca.exibirInformacoes()
+    println()
+    contaPoupanca.saque(50.0)
+    contaPoupanca.deposito(100.0,false)
+    println()
+
+    val contaPoupanca1 = ContaPoupanca(456,236,"Paola",0.0)
+    contaPoupanca1.exibirInformacoes()
+    println()
+    contaPoupanca1.saque(0.0)
+    contaPoupanca1.deposito(350.0,true)
+    println()
+
+    println("------Conta Corrente------")
+    println()
+    val contaCorrente = ContaCorrente(561,462,"Taina",6000.0)
+    contaCorrente.exibirInformacoes()
+    println()
+    contaCorrente.saque(7000.0)
+    contaCorrente.deposito(6000.0,true)
+    println()
+
+    val contaCorrente1 = ContaCorrente(261,555,"Pablo",500.0)
+    contaCorrente1.exibirInformacoes()
+    println()
+    contaCorrente1.saque(600.0)
+    contaCorrente1.deposito(100.0,true)
+}
