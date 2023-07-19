@@ -26,12 +26,11 @@
    tabela abaixo:
 
 | RENDA              | TAXA DE IMPOSTO |
-      |:------------------|:---------------:|
+|:------------------|:---------------:|
 | de 0.00 a 2000.00    |     Isento     |
 | de 2001.00 a 3000.00 |    8%     |
 | de 3001.00 a 4500.00 |    18%    |
 | acima de 4500.00 |    28%   |
-
 
 Lembre-se: seu sistema deverá disponibilizar um menu para o usuário com
 as opções de:
