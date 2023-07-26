@@ -1,7 +1,6 @@
 import ex2.DiaDaSemana
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
-
 class DiaDaSemanaTest {
 
     val classe = DiaDaSemana()

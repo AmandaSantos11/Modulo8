@@ -1,7 +1,5 @@
 package ex2
-
 class DiaDaSemana {
-
     fun verificaDiaDaSemana(numero:Int):String{
         when(numero){
             1 -> return "Domingo"

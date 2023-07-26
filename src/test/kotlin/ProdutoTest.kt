@@ -5,7 +5,6 @@ import kotlin.test.assertEquals
 class ProdutoTest {
 
     val classe = Produto()
-
     @Test
     fun verificaOMaisBarato(){
         val vetor = arrayOf(44.5,23.8,78.9)
